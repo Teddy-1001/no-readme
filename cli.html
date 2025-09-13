@@ -1,0 +1,55 @@
+command line interface is one the many ways users can interact with a computer system.
+what we mostly use is GUI (Graphical User Interface). It depicts user interactions as graphics (folder, files, icons) rather than text commands.
+we have other types of intefaces{
+    CLI (Command Line Interface): This is a text-based interface where users interact with the computer by typing commands into a console or terminal.
+    TUI (Text User Interface): This is a user interface that uses text and symbols to represent the interface, often in a more structured way than a CLI.
+    GUI (Graphical User Interface): This is a visual interface that allows users to interact with the computer using graphical elements like windows, icons, and buttons.
+    visual interfaces: These are interfaces that use visual elements to represent the system, often combining text and graphics.
+}
+CLI>>>>>This is an interface that mostly deal with memorizing commands to interact with computers at a lower level through a terminal.
+it is one of the essensials skills for developers and system administrators.
+advantages{
+    - Speed: CLI allows for faster navigation and execution of commands compared to GUI.
+    safety
+    allows remote access and file sharing through   IP adress
+}
+examples of terminals used to interact with the computer{
+    - Command Prompt (Windows)
+    - Terminal (macOS),(Linux)
+    - GNOME Terminal (Linux)
+    - PowerShell (Windows)  
+    - Bash/gitbash (Linux, macOS)
+}
+
+using command line interface, always remember the path that you are using
+types of path{
+    - Absolute Path: This is the complete path to a file or directory from the root of the file system. It always starts with a root directory (e.g., / for Linux/macOS, C:\ for Windows).
+    - Relative Path: This is a path that is relative to the current working directory. It does not start with a root directory and is often shorter than an absolute path.
+}
+
+commands used{
+    pwd>>>>>>>>print working directory. This prints the currents folder the user is in
+    ls>>>>>>>>list files and directories in the current directory{
+        ls -l>>>>>>>>prints the files inclusive of the time stampt
+        ls -a>>>>>>>>prints hidden files and contents
+    }
+    {
+        cd>>>>>>>>change directory. This command is used to navigate between directories.{ from documents to downloads}{
+            cd ..>>>>>>>>go back to the previous directory
+            cd .>>>>>>>>stay in the current directory
+        }
+        mkdir>>>>>>>>make directory. This command is used to create a new directory in an absolute or relative Path
+        rmdir>>>>>>>>remove directory. This command is used to delete an empty directory.Only when you are outside the directory you want to delete.
+        rm>>>>>>>>remove file. This command is used to delete a file or directory. Be careful with this command, as it does not move files to the trash.
+                rm -r>>>>>>>>remove directory and its contents recursively
+                rm -f>>>>>>>>force remove a file or directory without prompting for confirmation
+                
+
+        touch>>>>>>>>create a new empty file. This command is used to create a new file in the current directory.
+        {
+            [command] [filename]
+            touch index.html
+        }
+    }
+    
+}
